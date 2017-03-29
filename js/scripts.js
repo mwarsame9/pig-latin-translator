@@ -28,14 +28,16 @@ $(document).ready(function() {
       for(var i = 0; i <= consonants.length; i += 1) {
         if (userSentence[0] === consonants[i]) {
           var userSentenceString = userSentenceArray.join();
-          var moveConsonant = userSentenceString.slice(0, 1);
+          var moveConsonant = userSentenceString.slice(1);
+          var keepOthers = userSentenceString.slice(0, 1);
+
           console.log(moveConsonant);
           console.log(userSentenceString);
-          result = userSentenceString.concat(moveConsonant) + "ay";
+          result = moveConsonant.concat(keepOthers) + "ay";
           console.log(result);
         }
       }
-    })
+  });
 
     $("#result").text(result);
 
