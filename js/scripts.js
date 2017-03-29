@@ -1,9 +1,10 @@
 //Back-end logic:
-// var userSentenceArray = [userSentence];
+// var userSentence = "";
+// var userSentenceArray = userSentence;
 // var vowels = ['a','e','i','o','u']
-// for(var index = 0; index <= userSentenceArray.length; index += 1) {
-//   if (userSentenceArray === vowels[index]) {
-//     result = userSentenceArray + "ay";
+// for(var index = 0; index <= vowels.length; index += 1) {
+//   if (userSentence.charAt(0) === vowels[index]) {
+//     result = userSentence + "ay";
 //   }
 // }
 //Front-end logic:
