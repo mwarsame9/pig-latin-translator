@@ -2,7 +2,7 @@
 |----------|:--------:|:--------:|
 | The program adds "ay" to single-letter word beginning with a vowel. | i | iay |
 | The program adds "ay" to a multi-character word beginning with a vowel. | and | anday |
-| The program adds "ay" to each multi-character word in a sentence | a apple | aay appleay |
+| The program adds "ay" to each multi-character word in a sentence beginning with a vowel. | a apple | aay appleay |
 | For words beginning with one consonant, the program moves that consonant to the end of the word and adds "ay" | pig | igpay |
 | For words beginning with more than one consonant, the program moves all consecutive consonants to the end of the word and adds "ay". | translator | anslatortray |
 | For words starting with "qu", the program will treat the "u" as a consonant and move the "qu" to the end of the word, and add "ay" | question | estionquay |
