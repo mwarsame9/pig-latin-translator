@@ -3,7 +3,6 @@
 | The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3 | 3 |
 | The program adds "ay" to single-letter words beginning with a vowel. | i | iay |
 | The program adds "ay" to a multi-character words beginning with a vowel. | and | anday |
-<!-- | The program adds "ay" to each word beginning with a vowel in a multi-word sentence | -->
 | For words beginning with one consonant, the program moves that consonant to the end of the word and adds "ay" | pig | igpay |
 | For words beginning with more than one consonant, the program moves all consecutive consonants to the end of the word and adds "ay". | translator | anslatortray |
 | For words starting with "qu", the program will treat the "u" as a consonant and move the "qu" to the end of the word, and add "ay" | question | estionquay |
